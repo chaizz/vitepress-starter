@@ -1,36 +1,26 @@
 module.exports = {
-  title: 'ninth-club',
-  description: 'Just playing around.',
-
-  themeConfig: {
-
-  logo: "/logo.svg",
-
-    nav: [
-      { 
-        text: "Guide",
-        items: [
-          { text: 'guide 1', link: '/guide/guide-1' },
-          { text: 'guide 2', link: '/guide/guide-2' },
-          { text: 'guide 3', link: '/guide/guide-3' }
-        ]
-      }
-    ],
-
-
-sidebar: [
-      {
-        text: "web",
-        items: [
-          {
-            text: "js",
-            link: "/js/",
-          },
-          { text: "css", link: "/css/" },
+    title: '网站标题',
+    description: '网站介绍',
+    themeConfig: {
+        logo: "/logo.svg",
+        nav: [
+            {
+                text: "chaizz", link: '/about/'
+            },
+            {
+                text: "关于",
+                link: '/about/'
+            }
         ],
-      }
-    ],
+        sidebar: [
+            {
+                text: "web",
+                items: [
+                    {text: "css", link: "/Web/CSS/CSS媒体查询/",},
+                    {text: "js", link: "/Web/javascript/js笔记之js事件/"},
+                ],
+            }
+        ],
 
-  }
-
+    }
 }

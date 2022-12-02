@@ -15,7 +15,7 @@ photos: ["https://tc.chaizz.com/b894ccf022f211edb23e0242ac190002.png"]
 
 1. 首先安装readline 和readline-devel
 
-   ```shll
+   ```shell
    yum install readline 
    yum install readline-devel
    ```

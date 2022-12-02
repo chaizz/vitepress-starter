@@ -35,7 +35,7 @@ photos: ["https://tc.chaizz.com/tc/Snipaste_2021-09-27_15-34-13.png"]
 
 ###  1、FROM 命令语法
 
-```dockerfile
+```sh
 FROM <image>
 FROM <image>[:<tag>]   # 设置镜像的版本，不写为最新版本  latest
 
@@ -43,7 +43,7 @@ FROM <image>[:<tag>]   # 设置镜像的版本，不写为最新版本  latest
 
 ### 2、RUN 命令
 
-```dockerfile
+```sh
 # RUN 后面直接写shell命令, RUN 的命令是在构建镜像中执行。
 RUN echo hello word
 
@@ -52,14 +52,14 @@ RUN ["yum","install","-y","vim"]
 
 ### 3、EXPOSR 命令
 
-```dockerfile
+```sh
 # 针对一些需要端口的服务
 EXPOSE 6379
 ```
 
 ### 4、WORKDIR 命令
 
-```dockerfile
+```sh
 # 用来为Dockerfile中的任何 RUN/CMD/ENTRYPOINT/CPOY/ADD/ 指令设置工作目录，如果WORKDIR  不存在，即使他没有在后续得命令中被使用，也将会被创建。
 
 WORKDIR /opt/myserver
@@ -73,7 +73,7 @@ WORKDIR bb
 
 ### 5、ADD 命令
 
-```dockerfile
+```sh
 # 用来从Dockerfile的当前目录中复制文件，目录，或者下载URL,并将他们添加到位于容器内指定的文件中
 
 ADD bb.txt /aaa/bb
@@ -92,7 +92,7 @@ WORKDIR tomcat
 
 ### 6、COPY 命令
 
-```dockerfile
+```sh
 # 将文件复制到指定容器内部的目录
 # COPY a.txt /aaa/bb
 ```
@@ -101,7 +101,7 @@ WORKDIR tomcat
 
 ### 7、volume 目录
 
-```dockerfile
+```sh
 # 允许在容器运行的时候将目录挂载到宿主机的目录上
 VOLUME /aaa/bb/tomcat/webapps
 
@@ -111,7 +111,7 @@ VOLUME /aaa/bb/tomcat/webapps
 
 ### 8、ENV 命令
 
-```dockerfile
+```sh
 # 设置当前容器的环境变量
 
 ENV BASE_DIR
@@ -122,7 +122,7 @@ ENV BASE_DIR
 
 ### 9、ENTRYPOINT 命令
 
-```dockerfile
+```sh
 # 容器运行的命令和参数  ENTRYPOINT的命令是在容器构建完成之后启动的时候执行,要覆盖ENTRYPOINT  他的指令 需要在docker run 的时候加上 --entrypoint ls 
 ENTRYPOINT ls $BASE_DIR/tomcat
 # 或者
@@ -133,7 +133,7 @@ ENTRYPOINT ["ls", "$BASE_DIR/tomcat"]
 
 ### 10、CMD 命令
 
-```dockerfile
+```sh
 # 只执行最后一个，如果在 docker run 之后指定了命令(不需要参数) 会将CMD的指令覆盖，不再执行CMD的指令
 
 CMD ls $BASR_DIR

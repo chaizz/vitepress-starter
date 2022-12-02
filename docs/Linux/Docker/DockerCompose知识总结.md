@@ -190,7 +190,7 @@ CMD ["flask", "run"]
 
 结合docker compose 部署多个服务
 
-```dockerfile
+```sh
 version: "3"
 
 services:
@@ -372,7 +372,7 @@ networks:   # 声明上面创建的 hello 网桥
 
 # 三、安装Portainer是Docker可视化软件
 
-```dockerfile
+```sh
 # 下载
 docker pull portainer/portainer
 # 启动容器

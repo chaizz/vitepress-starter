@@ -23,7 +23,7 @@ photos: ["https://tc.chaizz.com/tc/Snipaste_2021-09-27_15-34-13.png"]
 
 ## 一、初始版Dockerfile内容
 
-```dockerfile
+```sh
 FROM python:3.8
 
 WORKDIR /app
@@ -52,7 +52,7 @@ CMD ["sh", "run.sh"]
 
 ## 二、第二版Dockerfile内容
 
-```dockerfile
+```sh
 FROM python:3.8-slim
 
 COPY . .
@@ -92,7 +92,7 @@ RUN sed -i -E 's/(deb|security).debian.org/mirrors.aliyun.com/g' /etc/apt/source
 
 ## 三、第三版DockerFile内容
 
-```dockerfile
+```sh
 FROM python:3.8 as builder
 
 COPY ./requirements_base.txt .

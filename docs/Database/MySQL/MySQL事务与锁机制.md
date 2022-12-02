@@ -158,7 +158,7 @@ MySQL的表级锁有两种，一种是表锁，一种是元数据锁。
 
 
 
-```mysql
+```sql
 # 给book添加写锁 
 lock table book write;
 

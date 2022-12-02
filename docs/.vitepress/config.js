@@ -1,6 +1,6 @@
 module.exports = {
-    title: '网站标题',
-    description: '网站介绍',
+    title: '第九艺术',
+    description: '世界上最大的游戏在线俱乐部~',
     themeConfig: {
         logo: "/logo.svg",
         nav: [

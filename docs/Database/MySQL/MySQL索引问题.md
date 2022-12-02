@@ -21,14 +21,14 @@ photo: ["https://tc.chaizz.com/tc/Snipaste_2021-10-08_22-12-28.png"]
 
 索引回表指的就是在查询某一列数据是判断条件为非主键索引，name查到这条复合条件的所有记录就需要在根据非主键索引获得的主键索引的值，在取主键索引的B+树中在此查询一次才能获取到全部的数据。例如：
 
-```mysql
+```sql
 # ID 是主键索引 ，只需要一次查询就可以获取符合条件的全部记录。
 select * from ex_table where ID=1;
 ```
 
 
 
-```mysql
+```sql
 # n 是非主键索引，查询到的结果是符合条件的主键索引的ID，所以还需要早根据主键的ID,再在主键索引的B+树上查询一次
 select * from ex_table where n = 5;
 ```
@@ -41,7 +41,7 @@ select * from ex_table where n = 5;
 
 如果执行的语句是 :
 
-```mysql
+```sql
 select idfrom T where n between 1 and 10;
 ```
 
@@ -53,7 +53,7 @@ select idfrom T where n between 1 and 10;
 
 索引下推（index condition pushdown ）简称ICP，在MySQL5.6的版本上推出，用于优化查询，默认是开启的，可以通过以下的命令关闭：
 
-```mysql
+```sql
 set optimizer_switch = 'index_condition_pushdown=off';
 ```
 
@@ -67,7 +67,7 @@ set optimizer_switch = 'index_condition_pushdown=off';
 
 假如有以下MySQL
 
-```mysql
+```sql
 # 索引值为 name age 为组合索引。
 
 select * from user where name like '张%' and age = 20;

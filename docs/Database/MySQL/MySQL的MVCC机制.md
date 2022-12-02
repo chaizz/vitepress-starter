@@ -37,7 +37,7 @@ MVCC（Multi - Version - Concurrency - Control）全称是**多版本并发控�
 
 以下操作都是当前读：
 
-```mysql
+```sql
 select lock in share mode # (共享锁)
 
 select for update  #(排他锁)

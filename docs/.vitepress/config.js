@@ -16,11 +16,10 @@ module.exports = {
             {
                 text: "web",
                 items: [
-                    {text: "css", link: "/Web/CSS/CSS媒体查询/",},
+                    {text: "css", link: "/Web/CSS/CSS媒体查询/"},
                     {text: "js", link: "/Web/javascript/js笔记之js事件/"},
                 ],
             }
         ],
-
     }
 }

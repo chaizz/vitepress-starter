@@ -45,19 +45,19 @@ mysql -uroot -p123456
 
 设置密码不过期
 
-```mysql
+```sql
 alter user 'root'@'%' identified by '123456' password expire never;
 ```
 
 设置密码规则
 
-```mysql
+```sql
 alter user 'root'@'%' identified with mysql_native_password by '123456';
 ```
 
 ## 4、刷新权限
 
-```mysql
+```sql
 flush privileges;
 ```
 

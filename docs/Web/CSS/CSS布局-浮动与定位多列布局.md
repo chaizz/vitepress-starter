@@ -128,7 +128,7 @@ clear 属性接受下列值：
 
 以上四个值是用来精确指定元素的位置，
 
-```cs
+```css
 .positioned {
     position: relative;
     top: 30px;

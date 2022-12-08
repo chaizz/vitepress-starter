@@ -1,14 +1,4 @@
----
-title: JS笔记之JS代码调用策略
-author: chaizz
-date: 2022-10-12 17:40:18
-tags: javaScript
-photo: ["https://tc.chaizz.com/ec55444c4a1211edac740242ac190002.png"]
----
-
-​          
-
-<!--more-->
+[[toc]]
 
 # JS代码调用策略
 
@@ -22,7 +12,7 @@ javaScript代码位置和css一样，可以设置为内部样式、内联样式�
 
 ```js
 document.addEventListener("DOMContentLoaded", function () {
-    . . .
+    console.log("...")
 });
 ```
 
@@ -79,15 +69,3 @@ document.addEventListener("DOMContentLoaded", function () {
 如果脚本无需等待页面解析，且无依赖独立运行，那么应使用 `async`。
 
 如果脚本需要等待页面解析，且依赖于其它脚本，调用这些脚本时应使用 `defer`，将关联的脚本按所需顺序置于 HTML 中。
-
-
-
-
-
-
-
-
-
-
-
-​          

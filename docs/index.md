@@ -1,4 +1,5 @@
 ---
+home: true
 layout: home
 
 hero:
@@ -7,7 +8,7 @@ hero:
   tagline: 第九俱乐部
   image:
     src: /logo.png
-    alt: Kitty
+    alt: vite
   actions:
     - theme: brand
     text: 快来快来

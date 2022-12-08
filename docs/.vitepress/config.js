@@ -4,18 +4,34 @@ module.exports = {
     themeConfig: {
         logo: "/logo.svg",
 
+        // 导航栏
         nav: [{text: "about", link: '/about/about/'}],
 
-        sidebar: [
-            {
-                text: "css",
-                items: [
-                    {text: "CSS媒体查询", link: "Web/CSS/CSS媒体查询/"},
-                ],
-            }
-        ],
+        // 侧边栏
+        sidebar: {
+            "/articles/": [
+                {
+                    text: "CSS",
+                    items: [
+                        {
+                            text: "CSS媒体查询",
+                            link: "/articles/CSS媒体查询",
+                        }
+                    ],
+                },
+                {
+                    text: "js",
+                    items: [
+                        {
+                            text: "js首页",
+                            link: "/articles/js",
+                        },
+                    ],
+                },
+            ],
+        },
 
-
+        // 社交链接
         socialLinks: [
             { icon: "github", link: "https://github.com/chaizz" },
             { icon: "twitter", link: "..." },

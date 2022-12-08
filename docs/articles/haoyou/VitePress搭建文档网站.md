@@ -6,7 +6,7 @@ tags: VitePress
 photo: ["https://tc.chaizz.com/438d4290709311edb4470242ac190002.svg"]
 ---
 
-​            
+          
 
 <!--more-->
 
@@ -223,7 +223,7 @@ module.exports = {
             {
                 text: "web",
                 items: [
-                    {text: "js", link: "/JS/",},
+                    {text: "js", link: "/zhuangbei/",},
                     {text: "css", link: "/css/"},
                 ],
             }

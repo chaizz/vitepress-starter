@@ -1,5 +1,5 @@
 /.idea### Vue template
-# gitignore template for Vue.JS projects
+# gitignore template for Vue.zhuangbei projects
 #
 # Recommended template: Node.gitignore
 
@@ -88,17 +88,17 @@ web_modules/
 .cache
 .parcel-cache
 
-# Next.JS build output
+# Next.zhuangbei build output
 .next
 out
 
-# Nuxt.JS build / generate output
+# Nuxt.zhuangbei build / generate output
 .nuxt
 dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.JS
+# Comment in the public line in if your project uses Gatsby and not Next.zhuangbei
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 

@@ -61,7 +61,7 @@ module.exports = {
 
         // 社交链接
         socialLinks: [
-            { icon: "github", link: "https://github.com/chaizz" },
+            { icon: "github", link: "..." },
             { icon: "twitter", link: "..." },
         ],
     }

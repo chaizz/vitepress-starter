@@ -5,7 +5,10 @@ module.exports = {
         logo: "/logo.svg",
 
         // 导航栏
-        nav: [{text: "about", link: '/about/about'}],
+        nav: [
+            {text: "about", link: '/about/about'},
+            {text: "article", link: '/article/CSS/'},
+        ],
 
         // 侧边栏
         sidebar: {
@@ -15,7 +18,7 @@ module.exports = {
                     items: [
                         {
                             text: "css",
-                            link: "/articles/CSS/CSS",
+                            link: "/articles/CSS/",
                         },
                         {
                             text: "css2",
@@ -28,7 +31,7 @@ module.exports = {
                     items: [
                         {
                             text: "js首页",
-                            link: "/articles/JS/JS",
+                            link: "/articles/JS/",
                         },
                         {
                             text: "js2",

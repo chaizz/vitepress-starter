@@ -22,9 +22,9 @@ features:
     title: 营地
     details: 专注于营地挖掘
   - icon:  💡 
-    title: 装备
+    title: 徒步
     details: 各种专业的装备介绍
   - icon:  🛠️
-    title: 出发
+    title: 装备
     details: 约上三五好友结伴出发
 ---

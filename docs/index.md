@@ -21,7 +21,7 @@ features:
   - icon: ⚡️
     title: 这是一个闪电图标
     details: wawawa
-  - icon:  💡
+  - icon:  💡 
     title: 这是一个灯泡图标
     details: good...
   - icon:  🛠️

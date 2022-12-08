@@ -7,7 +7,7 @@ module.exports = {
         // 导航栏
         nav: [
             {text: "about", link: '/about/about'},
-            {text: "article", link: '/article/CSS/index2'},
+            {text: "article", link: '/articles/CSS/index2'},
         ],
 
         // 侧边栏

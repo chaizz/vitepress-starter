@@ -1,37 +1,37 @@
 
 :tada:
 
-pizza: 
+:pizza: 
 
-hotdog: 
+:hotdog: 
 
-sandwich: 
+:sandwich: 
 
-taco: 
+:taco: 
 
-burrito: 
+:burrito: 
 
-tamale: 
+:tamale: 
 
-stuffed_flatbread: 
+:stuffed_flatbread: 
 
-falafel: 
+:falafel: 
 
-egg: 
+:egg: 
 
-fried_egg: 
+:fried_egg: 
 
-shallow_pan_of_food: 
+:shallow_pan_of_food: 
 
-stew: 
+:stew: 
 
-fondue: 
+:fondue: 
 
-bowl_with_spoon: 
+:bowl_with_spoon: 
 
-green_salad: 
+:green_salad: 
 
-popcorn:
+:popcorn:
 
 
 

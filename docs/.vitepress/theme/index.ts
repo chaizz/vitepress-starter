@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import './style.css' // 此处是主题的全局样式，可覆盖原主题的设置
+// import './style.css' // 此处是主题的全局样式，可覆盖原主题的设置
 import type { Theme } from 'vitepress'
 
 const define = <T>(value: T): T => value

@@ -11,10 +11,10 @@ hero:
     alt: vite
   actions:
     - theme: brand
-    text: 快来快来
-    link: /articles/组件库环境搭建
+    text: start
+    link: /articles/CSS/CSS媒体查询
     - theme: alt
-    text: View on Gitee
+    text: View on github
     link: https://github.com/chaizz
 
 features:

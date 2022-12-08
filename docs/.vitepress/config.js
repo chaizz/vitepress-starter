@@ -14,9 +14,13 @@ module.exports = {
                     text: "CSS",
                     items: [
                         {
-                            text: "CSS媒体查询",
-                            link: "/articles/CSS/CSS媒体查询",
-                        }
+                            text: "css",
+                            link: "/articles/CSS",
+                        },
+                        {
+                            text: "css2",
+                            link: "/articles/CSS/index2",
+                        },
                     ],
                 },
                 {
@@ -24,7 +28,11 @@ module.exports = {
                     items: [
                         {
                             text: "js首页",
-                            link: "/articles/js/js",
+                            link: "/articles/JS",
+                        },
+                        {
+                            text: "js2",
+                            link: "/articles/JS/index2",
                         },
                     ],
                 },

@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: start 
-      link: /articles/CSS/CSS媒体查询
+      link: /articles/CSS
     - theme: alt 
       text: View on github
       link: https://github.com/chaizz
@@ -21,10 +21,10 @@ features:
   - icon: ⚡️
     title: 这是一个闪电图标
     details: wawawa
-  - icon:  
-    title: 这是一个手掌图标
+  - icon:  💡
+    title: 这是一个灯泡图标
     details: good...
-  - icon:  ️
+  - icon:  🛠️
     title: 这是一个修理图标
     details: cocococo
 

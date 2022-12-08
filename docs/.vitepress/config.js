@@ -5,7 +5,7 @@ module.exports = {
         logo: "/logo.svg",
 
         // 导航栏
-        nav: [{text: "about", link: '/about/about/'}],
+        nav: [{text: "about", link: '/about/about'}],
 
         // 侧边栏
         sidebar: {

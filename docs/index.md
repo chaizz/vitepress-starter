@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: Ninth Club 
-  text: 随便写点啥. 
-  tagline: 第九俱乐部 
+  text: 第九俱乐部 
+  tagline: 一个专注露营旅行的俱乐部~ 
   image:
   src: /logo.png 
   alt: vite 
@@ -19,13 +19,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: 这是一个闪电图标
-    details: wawawa
+    title: 营地
+    details: 专注于营地挖掘
   - icon:  💡 
-    title: 这是一个灯泡图标
-    details: good...
+    title: 装备
+    details: 各种专业的装备介绍
   - icon:  🛠️
-    title: 这是一个修理图标
-    details: cocococo
-
+    title: 出发
+    details: 约上三五好友结伴出发
 ---

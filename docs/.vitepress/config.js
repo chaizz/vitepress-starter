@@ -1,6 +1,6 @@
 module.exports = {
     title: '第九俱乐部',
-    description: '世界上最大的游戏在线俱乐部~',
+    description: '世界上最大的中文露营俱乐部~',
     themeConfig: {
         logo: "/logo.svg",
 

@@ -11,17 +11,8 @@ module.exports = {
                 text: "css",
                 items: [
                     {text: "CSS媒体查询", link: "/Web/CSS/CSS媒体查询/"},
-                    {text: "CSS层叠与继承", link: "/Web/CSS/CSS层叠与继承/"},
-                ],
-            },
-
-            {
-                text: "js",
-                items: [
-                    {text: "js笔记之js事件", link: "/Web/Javascript/js笔记之js事件/"},
-                    {text: "js笔记之Js代码调用策略", link: "/Web/Javascript/js笔记之Js代码调用策略/"},
                 ],
             }
-        ],
+        ]
     }
 }

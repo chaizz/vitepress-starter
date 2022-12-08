@@ -15,7 +15,7 @@ module.exports = {
                     items: [
                         {
                             text: "CSS媒体查询",
-                            link: "/articles/CSS媒体查询",
+                            link: "/articles/CSS/CSS媒体查询",
                         }
                     ],
                 },
@@ -24,7 +24,7 @@ module.exports = {
                     items: [
                         {
                             text: "js首页",
-                            link: "/articles/js",
+                            link: "/articles/js/js",
                         },
                     ],
                 },

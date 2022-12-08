@@ -9,9 +9,7 @@
 
 :taco: 
 
-:burrito: 
-
-:tamale: 
+:burrito:
 
 :stuffed_flatbread: 
 
@@ -23,9 +21,7 @@
 
 :shallow_pan_of_food: 
 
-:stew: 
-
-:fondue: 
+:stew:
 
 :bowl_with_spoon: 
 

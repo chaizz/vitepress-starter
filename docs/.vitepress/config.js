@@ -17,11 +17,11 @@ module.exports = {
                     text: "露营指南",
                     items: [
                         {
-                            text: "营地",
+                            text: "露营",
                             link: "/articles/yingdi/",
                         },
                         {
-                            text: "营地2",
+                            text: "露营2",
                             link: "/articles/yingdi/index2",
                         },
                     ],
@@ -31,10 +31,27 @@ module.exports = {
                     items: [
                         {
                             text: "徒步1",
-                            link: "/articles/zhuangbei/",
+                            link: "/articles/tubu/",
                         },
                         {
                             text: "徒步2",
+                            link: "/articles/tubu/index2",
+                        },
+                        {
+                            text: "徒步3",
+                            link: "/articles/tubu/VitePress搭建文档网站",
+                        },
+                    ],
+                },
+                {
+                    text: "装备指南",
+                    items: [
+                        {
+                            text: "装备1",
+                            link: "/articles/zhuangbei/",
+                        },
+                        {
+                            text: "装备2",
                             link: "/articles/zhuangbei/index2",
                         },
                     ],

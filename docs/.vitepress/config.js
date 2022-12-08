@@ -4,7 +4,7 @@ module.exports = {
     themeConfig: {
         logo: "/logo.svg",
 
-        nav: [{text: "about", link: '/about/'}],
+        nav: [{text: "about", link: '/about/about/'}],
 
         sidebar: [
             {

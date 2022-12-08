@@ -5,7 +5,7 @@ layout: home
 hero:
   name: Ninth Club 
   text: 第九俱乐部 
-  tagline: 一个专注露营旅行的俱乐部~ 
+  tagline: 一个专注徒步露营的俱乐部~ 
   image:
   src: /logo.png 
   alt: vite 

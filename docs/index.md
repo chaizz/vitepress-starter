@@ -19,12 +19,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: Bytes
-    details: Bytes
+    title: Jim Conyngham
+    details: All problems in computer science can be solved by another level of indirection.
   - icon:  💡 
-    title: Meta
-    details: Meta
+    title: Ken Thompson
+    details: When in doubt, use brute force.
   - icon:  🛠️
-    title: Code
-    details: Code
+    title: Roy Carlson
+    details: The sooner you start to code, the longer the program will take.
 ---

@@ -7,61 +7,61 @@ module.exports = {
         // 导航栏
         nav: [
             {text: "about", link: '/about/about'},
-            {text: "article", link: '/articles/Python/'},
+            {text: "article", link: '/articles/JavaScript/'},
         ],
 
         // 侧边栏
         sidebar: {
             "/articles/": [
-                {
-                    text: "JavaScript",
-                    items: [
-                        {
-                            text: "JavaScript",
-                            link: "/articles/JavaScript/",
-                        },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(一)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(一)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(二)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(二)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(三)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(三)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(四)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(四)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(五)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(五)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(六)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(六)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(七)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(七)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS对象基础知识(八)",
-                        //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(八)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS数据类型(一)",
-                        //     link: "/articles/JavaScript/JS笔记之JS数据类型(一)",
-                        // },
-                        // {
-                        //     text: "JS笔记之JS数据类型(二)",
-                        //     link: "/articles/JavaScript/JS笔记之JS数据类型(二)",
-                        // },
-                    ],
-                },
+                // {
+                //     text: "JavaScript",
+                //     items: [
+                //         {
+                //             text: "JavaScript",
+                //             link: "/articles/JavaScript/",
+                //         },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(一)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(一)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(二)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(二)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(三)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(三)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(四)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(四)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(五)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(五)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(六)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(六)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(七)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(七)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS对象基础知识(八)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS对象基础知识(八)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS数据类型(一)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS数据类型(一)",
+                //         // },
+                //         // {
+                //         //     text: "JS笔记之JS数据类型(二)",
+                //         //     link: "/articles/JavaScript/JS笔记之JS数据类型(二)",
+                //         // },
+                //     ],
+                // },
                 {
                     text: "Other",
                     items: [

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: Ninth Club 
-  text: 第九俱乐部 
-  tagline: 一个专注徒步露营的俱乐部~ 
+  text: 编程纪元 
+  tagline: Simplicity is prerequisite for reliability~ 
   image:
   src: /logo.png 
   alt: vite 
@@ -19,12 +19,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: 营地
-    details: 专注于营地挖掘
+    title: Bytes
+    details: Bytes
   - icon:  💡 
-    title: 徒步
-    details: 一步一步探索未知
+    title: Meta
+    details: Meta
   - icon:  🛠️
-    title: 装备
-    details: 约上三五好友结伴出发
+    title: Code
+    details: Code
 ---

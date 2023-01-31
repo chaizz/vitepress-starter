@@ -67,7 +67,7 @@ module.exports = {
                     items: [
                         {
                             text: "VitePress搭建文档网站",
-                            link: "/articles/JavaScript/VitePress搭建文档网站",
+                            link: "/articles/Other/VitePress搭建文档网站",
                         },
                         // {
                         //     text: "JS笔记之JS对象基础知识(一)",

@@ -14,24 +14,6 @@ module.exports = {
         sidebar: {
             "/articles/": [
                 {
-                    text: "Python",
-                    items: [
-                        {
-                            text: "Celery",
-                            items: [
-                                {
-                                    text: "Celery 源码分析",
-                                    link: "/articles/Python/",
-                                }
-                            ]
-                        },
-                        {
-                            text: "Django",
-                            link: "/articles/Python/index2",
-                        },
-                    ],
-                },
-                {
                     text: "JavaScript",
                     items: [
                         {

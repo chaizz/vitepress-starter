@@ -62,88 +62,88 @@ module.exports = {
                         },
                     ],
                 },
-                {
-                    text: "CSS",
-                    items: [
-                        {
-                            text: "CSS媒体查询",
-                            link: "/articles/CSS/CSS媒体查询",
-                        },
-                    ],
-                },
-                {
-                    text: "Go",
-                    items: [
-                        {
-                            text: "Go",
-                            link: "/articles/Go/",
-                        },
-                        {
-                            text: "Gin",
-                            link: "/articles/CSS/index2",
-                        },
-                    ],
-                },
-                {
-                    text: "Rust",
-                    items: [
-                        {
-                            text: "Rust",
-                            link: "/articles/CSS/",
-                        },
-                        {
-                            text: "deno",
-                            link: "/articles/CSS/index2",
-                        },
-                    ],
-                },
-                {
-                    text: "Database",
-                    items: [
-                        {
-                            text: "MySQL",
-                            link: "/articles/CSS/",
-                        },
-                        {
-                            text: "Redis",
-                            link: "/articles/CSS/index2",
-                        },
-                        {
-                            text: "MongoDB",
-                            link: "/articles/CSS/index2",
-                        },
-                    ],
-                },
-                {
-                    text: "Linux",
-                    items: [
-                        {
-                            text: "Ubuntu",
-                            link: "/articles/CSS/",
-                        },
-                        {
-                            text: "Docker",
-                            link: "/articles/CSS/index2",
-                        },
-                        {
-                            text: "K8S",
-                            link: "/articles/CSS/index2",
-                        },
-                    ],
-                },
-                {
-                    text: "Other",
-                    items: [
-                        {
-                            text: "杂谈",
-                            link: "/articles/CSS/",
-                        },
-                        {
-                            text: "笔记",
-                            link: "/articles/CSS/index2",
-                        },
-                    ],
-                },
+                // {
+                //     text: "CSS",
+                //     items: [
+                //         {
+                //             text: "CSS媒体查询",
+                //             link: "/articles/CSS/CSS媒体查询",
+                //         },
+                //     ],
+                // },
+                // {
+                //     text: "Go",
+                //     items: [
+                //         {
+                //             text: "Go",
+                //             link: "/articles/Go/",
+                //         },
+                //         {
+                //             text: "Gin",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //     ],
+                // },
+                // {
+                //     text: "Rust",
+                //     items: [
+                //         {
+                //             text: "Rust",
+                //             link: "/articles/CSS/",
+                //         },
+                //         {
+                //             text: "deno",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //     ],
+                // },
+                // {
+                //     text: "Database",
+                //     items: [
+                //         {
+                //             text: "MySQL",
+                //             link: "/articles/CSS/",
+                //         },
+                //         {
+                //             text: "Redis",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //         {
+                //             text: "MongoDB",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //     ],
+                // },
+                // {
+                //     text: "Linux",
+                //     items: [
+                //         {
+                //             text: "Ubuntu",
+                //             link: "/articles/CSS/",
+                //         },
+                //         {
+                //             text: "Docker",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //         {
+                //             text: "K8S",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //     ],
+                // },
+                // {
+                //     text: "Other",
+                //     items: [
+                //         {
+                //             text: "杂谈",
+                //             link: "/articles/CSS/",
+                //         },
+                //         {
+                //             text: "笔记",
+                //             link: "/articles/CSS/index2",
+                //         },
+                //     ],
+                // },
             ],
         },
 

@@ -6,7 +6,7 @@ tags: VitePress
 photo: ["https://tc.chaizz.com/438d4290709311edb4470242ac190002.svg"]
 ---
 
-          
+​            
 
 <!--more-->
 
@@ -20,23 +20,23 @@ photo: ["https://tc.chaizz.com/438d4290709311edb4470242ac190002.svg"]
 
 
 
-## 一、安装
+## 1 安装
 
 [以下步骤来自官网](https://vitejs.cn/vitepress/guide/getting-started.html)
 
-**步骤 1:** 创建并进入一个目录
+### 1.1 创建并进入一个目录
 
 ```sh
 $ mkdir vitepress-starter && cd vitepress-starter
 ```
 
-**步骤 2:** 初始化
+### 1.2 初始化
 
 ```sh
 $ yarn init
 ```
 
-**步骤 3:** 本地安装 VitePress
+### 1.3 本地安装 VitePress
 
 ```sh
 $ yarn add --dev vitepress
@@ -223,7 +223,7 @@ module.exports = {
             {
                 text: "web",
                 items: [
-                    {text: "js", link: "/CSS/",},
+                    {text: "js", link: "/JS/",},
                     {text: "css", link: "/css/"},
                 ],
             }

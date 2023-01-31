@@ -45,7 +45,7 @@ $ yarn add --dev vitepress
 **步骤 4:** 创建你第一篇文档
 
 ```sh
-$ mkdir docs && echo '# Hello VitePress' > docs/index.md
+$ mkdir docs && echo '# Hello VitePress' > docs/Deno.md
 ```
 
 **步骤 5:** 在 `package.json`.添加一些`script`

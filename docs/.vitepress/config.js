@@ -73,7 +73,7 @@ module.exports = {
                     items: [
                         {
                             text: "CSS媒体查询",
-                            link: "/articles/CSS",
+                            link: "/articles/CSS/",
                         },
                     ],
                 },
@@ -91,7 +91,7 @@ module.exports = {
                     items: [
                         {
                             text: "Deno",
-                            link: "/articles/Rust",
+                            link: "/articles/Rust/Deno",
                         },
                     ],
                 },

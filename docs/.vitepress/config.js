@@ -133,7 +133,7 @@ module.exports = {
                     text: "Other",
                     items: [
                         {
-                            text: "杂谈",
+                            text: "Essays",
                             link: "/articles/Other/Essays",
                         },
                     ],

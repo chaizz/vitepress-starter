@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: start 
-      link: /articles/yingdi/
+      link: /articles/JavaScript/
     - theme: alt 
       text: View on github
       link: https://github.com/chaizz

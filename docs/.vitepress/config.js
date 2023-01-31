@@ -1,58 +1,164 @@
 module.exports = {
-    title: '第九俱乐部',
-    description: '世界上最大的中文露营俱乐部~',
+    title: '编程纪元',
+    description: '杂谈笔记~',
     themeConfig: {
         logo: "/logo.svg",
 
         // 导航栏
         nav: [
             {text: "about", link: '/about/about'},
-            {text: "article", link: '/articles/yingdi/'},
+            {text: "article", link: '/articles/Python/'},
         ],
 
         // 侧边栏
         sidebar: {
             "/articles/": [
                 {
-                    text: "露营指南",
+                    text: "Python",
                     items: [
                         {
-                            text: "露营",
-                            link: "/articles/yingdi/",
+                            text: "Celery",
+                            items: [
+                                {
+                                    text: "Celery 源码分析",
+                                    link: "/articles/Python/",
+                                }
+                            ]
                         },
                         {
-                            text: "露营2",
-                            link: "/articles/yingdi/index2",
+                            text: "Django",
+                            link: "/articles/Python/index2",
                         },
                     ],
                 },
                 {
-                    text: "徒步指南",
+                    text: "JavaScript",
                     items: [
                         {
-                            text: "徒步1",
-                            link: "/articles/tubu/",
+                            text: "VitePress搭建文档网站",
+                            link: "/articles/JavaScript/VitePress搭建文档网站",
                         },
                         {
-                            text: "徒步2",
-                            link: "/articles/tubu/index2",
+                            text: "JS笔记之JS对象基础知识(一)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(一)",
                         },
                         {
-                            text: "徒步3",
-                            link: "/articles/tubu/VitePress搭建文档网站",
+                            text: "JS笔记之JS对象基础知识(二)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(二)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(三)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(三)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(四)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(四)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(五)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(五)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(六)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(六)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(七)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(七)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(八)",
+                            link: "/articles/JavaScript/JS笔记之JS对象基础知识(八)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(一)",
+                            link: "/articles/JavaScript/JS笔记之JS数据类型(一)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(二)",
+                            link: "/articles/JavaScript/JS笔记之JS数据类型(二)",
                         },
                     ],
                 },
                 {
-                    text: "装备指南",
+                    text: "CSS",
                     items: [
                         {
-                            text: "装备1",
-                            link: "/articles/zhuangbei/",
+                            text: "CSS媒体查询",
+                            link: "/articles/CSS/CSS媒体查询",
+                        },
+                    ],
+                },
+                {
+                    text: "Go",
+                    items: [
+                        {
+                            text: "Go",
+                            link: "/articles/Go/",
                         },
                         {
-                            text: "装备2",
-                            link: "/articles/zhuangbei/index2",
+                            text: "Gin",
+                            link: "/articles/CSS/index2",
+                        },
+                    ],
+                },
+                {
+                    text: "Rust",
+                    items: [
+                        {
+                            text: "Rust",
+                            link: "/articles/CSS/",
+                        },
+                        {
+                            text: "deno",
+                            link: "/articles/CSS/index2",
+                        },
+                    ],
+                },
+                {
+                    text: "Database",
+                    items: [
+                        {
+                            text: "MySQL",
+                            link: "/articles/CSS/",
+                        },
+                        {
+                            text: "Redis",
+                            link: "/articles/CSS/index2",
+                        },
+                        {
+                            text: "MongoDB",
+                            link: "/articles/CSS/index2",
+                        },
+                    ],
+                },
+                {
+                    text: "Linux",
+                    items: [
+                        {
+                            text: "Ubuntu",
+                            link: "/articles/CSS/",
+                        },
+                        {
+                            text: "Docker",
+                            link: "/articles/CSS/index2",
+                        },
+                        {
+                            text: "K8S",
+                            link: "/articles/CSS/index2",
+                        },
+                    ],
+                },
+                {
+                    text: "Other",
+                    items: [
+                        {
+                            text: "杂谈",
+                            link: "/articles/CSS/",
+                        },
+                        {
+                            text: "笔记",
+                            link: "/articles/CSS/index2",
                         },
                     ],
                 },
@@ -61,8 +167,8 @@ module.exports = {
 
         // 社交链接
         socialLinks: [
-            { icon: "github", link: "..." },
-            { icon: "twitter", link: "..." },
+            {icon: "github", link: "..."},
+            {icon: "twitter", link: "..."},
         ],
     }
 }

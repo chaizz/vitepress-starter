@@ -223,7 +223,7 @@ module.exports = {
             {
                 text: "web",
                 items: [
-                    {text: "js", link: "/zhuangbei/",},
+                    {text: "js", link: "/CSS/",},
                     {text: "css", link: "/css/"},
                 ],
             }

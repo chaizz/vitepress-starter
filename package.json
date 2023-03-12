@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.29"
+    "vitepress": "^1.0.0-alpha.52"
   },
   "scripts": {
-      "docs:dev": "vitepress dev docs",
-      "docs:build": "vitepress build docs",
-      "docs:serve": "vitepress serve docs"
-    }
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": "git@github.com:chaizz/vitepress-starter.git",
+  "author": "chaizz <18037731392@163.com>"
 }

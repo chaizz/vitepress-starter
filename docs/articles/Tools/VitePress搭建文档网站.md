@@ -6,19 +6,15 @@ tags: VitePress
 photo: ["https://tc.chaizz.com/438d4290709311edb4470242ac190002.svg"]
 ---
 
-​            
-
 <!--more-->
 
 # VitePress搭建文档
 
 > 在VitePress官方文档中指明它是基于Vite构建的一个VuePress的小兄弟，同时也对VuePress存在的几个问题进行一些改进：
 >
-> -  更快
-> -  使用Vue3
-> -  更加轻巧
-
-
+> - 更快
+> - 使用Vue3
+> - 更加轻巧
 
 ## 一、安装
 
@@ -48,7 +44,7 @@ $ yarn add --dev vitepress
 $ mkdir docs && echo '# Hello VitePress' > docs/Deno.md
 ```
 
-**步骤 5:** 在 `package.json`.添加一些`script`
+**步骤 5:** 在 `package.json`.添加一些 `script`
 
 ```sh
 {
@@ -68,8 +64,6 @@ $ yarn docs:dev
 
 VitePress 会在 `http://localhost:5173 `启动一个热重载的开发服务器。
 
-
-
 ## 二、设置基本信息
 
 进入项目根目录，在根目录中有一个 `docs` 文件夹，进入并创建 `.vitepress` 文件夹。在 `.vitepress` 文件夹中创建VitePress的配置文件 `config.js`。
@@ -82,8 +76,6 @@ VitePress 会在 `http://localhost:5173 `启动一个热重载的开发服务器
 |	|	|--config.js
 |	|--index.md
 ```
-
-
 
 在配置文件中为网站设置相关信息：
 
@@ -112,8 +104,6 @@ module.exports = {
 |	|--index.md
 ```
 
-
-
 ## 三、设置导航栏
 
 在 `config.js` 中配置 `themeConfig.nav` 设置导航栏。
@@ -137,11 +127,9 @@ module.exports = {
 }
 ```
 
-
-
 `nav` 是一个数组，每个元素代表一个导航栏标签，标签有两个属性 `text` 和 `link` 。
 
-`text` ：标签名`link` ：跳转的url。也可以使用下拉导航栏，例如上面中的示例。此时 `link` 元素改为 `items`，在 `items` 中是每个标签的属性。导航栏相对应的跳转url, 是在 `docs` 文件夹下创建同名的文件夹。
+`text` ：标签名 `link` ：跳转的url。也可以使用下拉导航栏，例如上面中的示例。此时 `link` 元素改为 `items`，在 `items` 中是每个标签的属性。导航栏相对应的跳转url, 是在 `docs` 文件夹下创建同名的文件夹。
 
 **非下拉导航栏**格式为：
 
@@ -197,8 +185,6 @@ nav: [
 |	|--index.md
 ```
 
-
-
 ## 四、设置侧边栏
 
 在 `config.js` 中配置 `themeConfig.sidebar` 设置侧边栏。
@@ -233,8 +219,6 @@ module.exports = {
 }
 ```
 
-
-
 `sidebar` 和 `nav` 设置方式一致，二级菜单使用 `items` 设置。
 
 目录结构为：
@@ -255,4 +239,3 @@ module.exports = {
 |	|	|--index.md
 |	|--index.md
 ```
-

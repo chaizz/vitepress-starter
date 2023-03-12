@@ -38,7 +38,7 @@ features:
     details: The sooner you start to code, the longer the program will take.
 
   - icon:  🎉
-    title: Roy Carlson
+    title: 拥抱开源
     details: The sooner you start to code, the longer the program will take.
 
 

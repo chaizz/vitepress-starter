@@ -1,14 +1,46 @@
 module.exports = {
     title: '编程纪元',
-    description: '杂谈笔记~',
+    description: '个人知识笔记~',
     themeConfig: {
         logo: "/logo.svg",
 
         // 导航栏
         nav: [
-            {text: "tools", link: '/articles/Tools/VitePress搭建文档网站'},
-            {text: "about", link: '/about/about'},
-            {text: "home", link: 'https://www.chaizz.com'},
+            { text: "Python", link: '/articles/Tools/VitePress搭建文档网站' },
+            { text: "Go", link: 'https://www.chaizz.com' },
+            { text: "JavaScript", link: '/articles/Tools/VitePress搭建文档网站' },
+            { text: "CSS", link: '/about/about' },
+            { text: "Rust", link: 'https://www.chaizz.com' },
+            {
+                text: "Database", items: [
+                    {
+                        text: "MySQL",
+                        link: "/articles/Go",
+                    },
+                    {
+                        text: "PostgreSQL",
+                        link: "/articles/Go",
+                    },
+                    {
+                        text: "MongoDB",
+                        link: "/articles/Go",
+                    }
+                ]
+            },
+            {
+                text: "Linux", items: [
+                    {
+                        text: "Docker",
+                        link: "/articles/Go",
+                    },
+                    {
+                        text: "K8s",
+                        link: "/articles/Go",
+                    }
+                ]
+            },
+            { text: "home", link: 'https://www.chaizz.com' },
+            { text: "其他", link: 'https://www.chaizz.com' },
         ],
 
         // 侧边栏
@@ -129,22 +161,13 @@ module.exports = {
                         },
                     ],
                 },
-                {
-                    text: "Other",
-                    items: [
-                        {
-                            text: "Essays",
-                            link: "/articles/Other/Essays",
-                        },
-                    ],
-                },
             ],
         },
 
         // 社交链接
         socialLinks: [
-            {icon: "github", link: "..."},
-            {icon: "twitter", link: "..."},
+            { icon: "github", link: "..." },
+            { icon: "twitter", link: "..." },
         ],
     }
 }

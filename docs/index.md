@@ -19,25 +19,38 @@ hero:
 
 features:
   - icon: ⚡️
-    title: Jim Conyngham
+    title: 技术博客
     details: All problems in computer science can be solved by another level of indirection.
   - icon:  💡 
-    title: Ken Thompson
+    title: 编程学习
     details: When in doubt, use brute force.
-  - icon:  🛠️
+  - icon:  🧱
+    title: 编程工具
+    details: The sooner you start to code, the longer the program will take.
+
+
+  - icon:  ✏️
+    title: 技术前沿
+    details: The sooner you start to code, the longer the program will take.
+
+  - icon:  🔋
+    title: 技术充电
+    details: The sooner you start to code, the longer the program will take.
+
+  - icon:  🎉
     title: Roy Carlson
     details: The sooner you start to code, the longer the program will take.
 
 
-  - icon:  🛠️
-    title: Roy Carlson
+  - icon:  🔥
+    title: 元宇宙
     details: The sooner you start to code, the longer the program will take.
 
-  - icon:  🛠️
-    title: Roy Carlson
+  - icon:  ⭐
+    title: web3
     details: The sooner you start to code, the longer the program will take.
 
-  - icon:  🛠️
-    title: Roy Carlson
+  - icon:  🔧
+    title: 区块链
     details: The sooner you start to code, the longer the program will take.
 ---

@@ -12,7 +12,7 @@ module.exports = {
                     {
                         items: [
                             {
-                                text: "Python",
+                                text: "⚡️ Python",
                                 link: "/articles/python/python/",
                             },
                         ]
@@ -68,11 +68,11 @@ module.exports = {
                     {
                         items: [
                             {
-                                text: "JavaScript",
+                                text: "⭐ JavaScript",
                                 link: "/articles/web/javascript/",
                             },
                             {
-                                text: "CSS",
+                                text: "🎉 CSS",
                                 link: "/articles/web/css/",
                             },
                         ],
@@ -80,7 +80,7 @@ module.exports = {
                     {
                         items: [
                             {
-                                text: "TypeScript",
+                                text: "🔥 TypeScript",
                                 link: "/articles/web/typescript/",
                             }
                         ],

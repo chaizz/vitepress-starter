@@ -193,7 +193,7 @@ module.exports = {
             "/articles/tools/": [
                 {
                     text: "VitePress",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "VitePress搭建文档网站",
@@ -206,7 +206,7 @@ module.exports = {
             "/articles/python/python/": [
                 {
                     text: "Python",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "Python第三方包Dynaconf的使用",
@@ -218,7 +218,7 @@ module.exports = {
             "/articles/python/django/": [
                 {
                     text: "Django",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "Django1",
@@ -232,7 +232,7 @@ module.exports = {
                 },
                 {
                     text: "REST framework",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "Serializers",
@@ -248,7 +248,7 @@ module.exports = {
             "/articles/python/Flask/": [
                 {
                     text: "Flask",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "Flask",
@@ -264,9 +264,8 @@ module.exports = {
             "/articles/web/javascript/": [
                 {
                     text: "数据类型",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
-
                         {
                             text: "JS笔记之JS数据类型(一)",
                             link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
@@ -275,14 +274,35 @@ module.exports = {
                             text: "JS笔记之JS数据类型(二)",
                             link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
                         },
-
-
-
+                        {
+                            text: "JS笔记之JS数据类型(三)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(三)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(四)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(四)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(五)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(五)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(六)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(六)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(七)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(七)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(八)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(八)",
+                        },
                     ]
                 },
                 {
                     text: "JS对象",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "JS笔记之JS对象基础知识(一)",
@@ -292,22 +312,128 @@ module.exports = {
                             text: "JS笔记之JS对象基础知识(二)",
                             link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
                         },
+                        {
+                            text: "JS笔记之JS对象基础知识(三)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(三)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(四)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(四)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(五)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(五)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(六)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(六)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(七)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(七)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(八)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(八)",
+                        },
                     ]
                 },
+                {
+                    text: "JS函数",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "JS笔记之JS函数进阶(一)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(一)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(二)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(二)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(三)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(三)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(四)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(四)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(五)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(五)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(六)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(六)",
+                        },
+                        {
+                            text: "JS笔记之JS函数进阶(七)",
+                            link: "/articles/web/javascript/JS笔记之JS函数进阶(七)",
+                        },
+
+                    ]
+                },
+                {
+                    text: "JS原型继承",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "JS笔记之JS原型继承(一)",
+                            link: "/articles/web/javascript/JS笔记之JS原型继承(一)",
+                        },
+                        {
+                            text: "JS笔记之JS原型继承(二)",
+                            link: "/articles/web/javascript/JS笔记之JS原型继承(二)",
+                        },
+                        {
+                            text: "JS笔记之JS原型继承(三)",
+                            link: "/articles/web/javascript/JS笔记之JS原型继承(三)",
+                        },
+                        {
+                            text: "JS笔记之JS原型继承(四)",
+                            link: "/articles/web/javascript/JS笔记之JS原型继承(四)",
+                        },
+
+
+                    ]
+                },
+                {
+                    text: "JS类",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "JS笔记之JS类(一)",
+                            link: "/articles/web/javascript/JS笔记之JS类(一)",
+                        },
+                        {
+                            text: "JS笔记之JS类(二)",
+                            link: "/articles/web/javascript/JS笔记之JS类(二)",
+                        },
+                        {
+                            text: "JS笔记之JS类(三)",
+                            link: "/articles/web/javascript/JS笔记之JS类(三)",
+                        },
+                    ]
+                },
+                
             ],
             "/articles/web/css/": [
                 {
-                    text: "数据类型",
-                    collapsible: true,
+                    text: "CSS布局",
+                    collapsed: false,
                     items: [
 
                         {
-                            text: "JS笔记之JS数据类型(一)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
+                            text: "CSS布局-CSS盒模型",
+                            link: "/articles/web/css/CSS盒模型",
                         },
                         {
-                            text: "JS笔记之JS数据类型(二)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
+                            text: "CSS布局-弹性盒子与网格布局",
+                            link: "/articles/web/css/CSS布局-弹性盒子与网格布局",
+                        },
+                        {
+                            text: "CSS布局-浮动与定位多列布局",
+                            link: "/articles/web/css/CSS布局-浮动与定位多列布局",
                         },
 
 
@@ -315,16 +441,44 @@ module.exports = {
                     ]
                 },
                 {
-                    text: "JS对象",
-                    collapsible: true,
+                    text: "CSS文本",
+                    collapsed: false,
                     items: [
                         {
-                            text: "JS笔记之JS对象基础知识(一)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
+                            text: "CSS文本样式",
+                            link: "/articles/web/css/CSS文本样式",
+                        }
+                    ]
+                },
+                {
+                    text: "CSS基础",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "CSS选择器",
+                            link: "/articles/web/css/CSS选择器",
                         },
                         {
-                            text: "JS笔记之JS对象基础知识(二)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
+                            text: "CSS层叠与继承",
+                            link: "/articles/web/css/CSS层叠与继承"
+                        },
+                        {
+                            text: "CSS媒体查询",
+                            link: "/articles/web/css/CSS媒体查询"
+                        },
+                        {
+                            text: "CSS背景和边框",
+                            link: "/articles/web/css/CSS背景和边框"
+                        },
+                    ]
+                },
+                {
+                    text: "CSS动画",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "CSS转换过渡和动画",
+                            link: "/articles/web/css/CSS转换过渡和动画",
                         },
                     ]
                 },
@@ -332,7 +486,7 @@ module.exports = {
             "/articles/web/typescript/": [
                 {
                     text: "数据类型",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
 
                         {
@@ -350,7 +504,7 @@ module.exports = {
                 },
                 {
                     text: "JS对象",
-                    collapsible: true,
+                    collapsed: false,
                     items: [
                         {
                             text: "JS笔记之JS对象基础知识(一)",
@@ -368,8 +522,8 @@ module.exports = {
 
         // 社交链接
         socialLinks: [
-            { icon: "github", link: "..." },
-            { icon: "twitter", link: "..." },
+            { icon: "github", link: "https://github.com/chaizz/vitepress-starter" },
+            { icon: "twitter", link: "https://twitter.com/" },
         ],
     },
     lastUpdated: true

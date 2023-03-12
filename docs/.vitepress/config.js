@@ -6,7 +6,9 @@ module.exports = {
 
         // 导航栏
         nav: [
-            { text: "Python", link: '/articles/Tools/VitePress搭建文档网站' },
+           
+            { text: "其他", link: 'articles/Essays' },
+            { text: "Python", link: '/articles/Python第三方包Dynaconf' },
             { text: "Go", link: 'https://www.chaizz.com' },
             { text: "JavaScript", link: '/articles/Tools/VitePress搭建文档网站' },
             { text: "CSS", link: '/about/about' },
@@ -40,7 +42,6 @@ module.exports = {
                 ]
             },
             { text: "home", link: 'https://www.chaizz.com' },
-            { text: "其他", link: 'https://www.chaizz.com' },
         ],
 
         // 侧边栏

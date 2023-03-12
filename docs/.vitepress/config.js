@@ -6,7 +6,7 @@ module.exports = {
 
         // 导航栏
         nav: [
-            { text: "其他", link: '/articles/Tools/VitePress搭建文档网站', activeMatch: '/其他/' },
+            { text: "其他", link: '/articles/tools/', activeMatch: '/其他/' },
             {
                 text: "Python", items: [
                     {
@@ -69,11 +69,11 @@ module.exports = {
                         items: [
                             {
                                 text: "JavaScript",
-                                link: "/Go",
+                                link: "/articles/web/javascript/",
                             },
                             {
                                 text: "CSS",
-                                link: "/Go",
+                                link: "/articles/web/css/",
                             },
                         ],
                     },
@@ -81,7 +81,7 @@ module.exports = {
                         items: [
                             {
                                 text: "TypeScript",
-                                link: "/Go",
+                                link: "/articles/web/typescript/",
                             }
                         ],
                     }
@@ -190,124 +190,19 @@ module.exports = {
 
         // 侧边栏
         sidebar: {
-            // "/": [
-            //     {
-            //         text: "JavaScript",
-            //         items: [
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(一)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(一)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(二)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(二)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(三)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(三)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(四)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(四)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(五)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(五)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(六)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(六)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(七)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(七)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS对象基础知识(八)",
-            //                 link: "/JavaScript/JS笔记之JS对象基础知识(八)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS数据类型(一)",
-            //                 link: "/JavaScript/JS笔记之JS数据类型(一)",
-            //             },
-            //             {
-            //                 text: "JS笔记之JS数据类型(二)",
-            //                 link: "/JavaScript/JS笔记之JS数据类型(二)",
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         text: "Tools",
-            //         items: [
-            //             {
-            //                 text: "VitePress搭建文档网站",
-            //                 link: "/CSS/VitePress搭建文档网站",
-            //             }
-            //         ],
-            //     },
-            //     {
-            //         text: "CSS",
-            //         items: [
-            //             {
-            //                 text: "CSS媒体查询",
-            //                 link: "/CSS/",
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         text: "Go",
-            //         items: [
-            //             {
-            //                 text: "Gin",
-            //                 link: "/Go",
-            //             }
-            //         ],
-            //     },
-            //     {
-            //         text: "Rust",
-            //         items: [
-            //             {
-            //                 text: "Deno",
-            //                 link: "/Rust/Deno",
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         text: "Database",
-            //         items: [
-            //             {
-            //                 text: "MySQL",
-            //                 link: "/Database/MySQl",
-            //             },
-            //             {
-            //                 text: "Redis",
-            //                 link: "/Database/Redis",
-            //             },
-            //             {
-            //                 text: "MongoDB",
-            //                 link: "/Database/MongoDB",
-            //             },
-            //         ],
-            //     },
-            //     {
-            //         text: "Linux",
-            //         items: [
-            //             {
-            //                 text: "Ubuntu",
-            //                 link: "/Linux/Ubuntu",
-            //             },
-            //             {
-            //                 text: "Docker",
-            //                 link: "/Linux/Docker",
-            //             },
-            //             {
-            //                 text: "K8S",
-            //                 link: "/Linux/K8S",
-            //             },
-            //         ],
-            //     },
-            // ],
-            
+            "/articles/tools/": [
+                {
+                    text: "VitePress",
+                    collapsible: true,
+                    items: [
+                        {
+                            text: "VitePress搭建文档网站",
+                            link: '/articles/tools/VitePress搭建文档网站',
+                        },
+                    ]
+                },
+
+            ],
             "/articles/python/python/": [
                 {
                     text: "Python",
@@ -363,6 +258,108 @@ module.exports = {
                             text: "Flask2",
                             link: "/articles/python/python/Python第三方包Dynaconf",
                         }
+                    ]
+                },
+            ],
+            "/articles/web/javascript/": [
+                {
+                    text: "数据类型",
+                    collapsible: true,
+                    items: [
+
+                        {
+                            text: "JS笔记之JS数据类型(一)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(二)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
+                        },
+
+
+
+                    ]
+                },
+                {
+                    text: "JS对象",
+                    collapsible: true,
+                    items: [
+                        {
+                            text: "JS笔记之JS对象基础知识(一)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(二)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
+                        },
+                    ]
+                },
+            ],
+            "/articles/web/css/": [
+                {
+                    text: "数据类型",
+                    collapsible: true,
+                    items: [
+
+                        {
+                            text: "JS笔记之JS数据类型(一)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(二)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
+                        },
+
+
+
+                    ]
+                },
+                {
+                    text: "JS对象",
+                    collapsible: true,
+                    items: [
+                        {
+                            text: "JS笔记之JS对象基础知识(一)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(二)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
+                        },
+                    ]
+                },
+            ],
+            "/articles/web/typescript/": [
+                {
+                    text: "数据类型",
+                    collapsible: true,
+                    items: [
+
+                        {
+                            text: "JS笔记之JS数据类型(一)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
+                        },
+                        {
+                            text: "JS笔记之JS数据类型(二)",
+                            link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
+                        },
+
+
+
+                    ]
+                },
+                {
+                    text: "JS对象",
+                    collapsible: true,
+                    items: [
+                        {
+                            text: "JS笔记之JS对象基础知识(一)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
+                        },
+                        {
+                            text: "JS笔记之JS对象基础知识(二)",
+                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
+                        },
                     ]
                 },
             ]

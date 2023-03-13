@@ -6,7 +6,7 @@
 		#B210FF
 	);
 	/* 图标背景 */
-	--vp-home-hero-image-background-image: linear-gradient(
+	--vp-home-hero-image-background-image: -webkit-linear-gradient(
 		135deg,
 		#EA5455 10%,
 		#f1760b 40%,

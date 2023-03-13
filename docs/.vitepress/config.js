@@ -6,7 +6,7 @@ module.exports = {
 
         // 导航栏
         nav: [
-            { text: "其他", link: '/articles/tools/', activeMatch: '/其他/' },
+            { text: "其他", link: '/articles/tools/VitePress搭建文档网站', activeMatch: '/其他/' },
             {
                 text: "Python", items: [
                     {
@@ -198,6 +198,26 @@ module.exports = {
                         {
                             text: "VitePress搭建文档网站",
                             link: '/articles/tools/VitePress搭建文档网站',
+                        }
+                    ]
+                },
+                {
+                    text: "Sublime Text4 ",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Sublime Text4 安装注册",
+                            link: '/articles/tools/Sublime Text4 安装注册',
+                        }
+                    ]
+                },
+                {
+                    text: "Typora",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Typora设置七牛云图床",
+                            link: '/articles/tools/Typora设置七牛云图床',
                         },
                     ]
                 },
@@ -412,6 +432,14 @@ module.exports = {
                         {
                             text: "JS笔记之JS类(三)",
                             link: "/articles/web/javascript/JS笔记之JS类(三)",
+                        },
+                        {
+                            text: "JS笔记之JS类(四)",
+                            link: "/articles/web/javascript/JS笔记之JS类(四)",
+                        },
+                        {
+                            text: "JS笔记之JS类(五)",
+                            link: "/articles/web/javascript/JS笔记之JS类(五)",
                         },
                     ]
                 },

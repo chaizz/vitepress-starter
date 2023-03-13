@@ -443,7 +443,7 @@ module.exports = {
                         },
                     ]
                 },
-                
+
             ],
             "/articles/web/css/": [
                 {
@@ -553,6 +553,22 @@ module.exports = {
             { icon: "github", link: "https://github.com/chaizz/vitepress-starter" },
             { icon: "twitter", link: "https://twitter.com/" },
         ],
+
+        // 文档更新时间
+        lastUpdated: true,
+
+        // 文档最后更新时间前的文本
+        lastUpdatedText: '上次更新',
+
+        // 右侧大纲级别
+        outline: [2, 6],
+
+        // 页脚
+        footer: {
+            message: 'Released under the MIT License.',
+            copyright: 'Copyright © 2023-present chaizz'
+        }
     },
-    lastUpdated: true
+
+
 }

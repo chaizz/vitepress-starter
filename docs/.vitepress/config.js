@@ -1,4 +1,5 @@
 module.exports = {
+    lang:'zh-CN',
     title: '编程纪元',
     description: '个人知识笔记~',
     themeConfig: {
@@ -6,9 +7,9 @@ module.exports = {
 
         // 导航栏
         nav: [
-            { text: "其他", link: '/articles/tools/VitePress搭建文档网站', activeMatch: '/其他/' },
+            { text: "🎆 其他", link: '/articles/tools/VitePress搭建文档网站', activeMatch: '/其他/' },
             {
-                text: "Python", items: [
+                text: "🐍 Python", items: [
                     {
                         items: [
                             {
@@ -64,7 +65,7 @@ module.exports = {
                 ], activeMatch: '/Python/'
             },
             {
-                text: "大前端", items: [
+                text: "🕸️ 大前端", items: [
                     {
                         items: [
                             {
@@ -88,7 +89,7 @@ module.exports = {
                 ], activeMatch: '/大前端/'
             },
             {
-                text: "数据库", items: [
+                text: "📝 数据库", items: [
                     {
                         text: "MySQL",
                         link: "/Go",
@@ -116,7 +117,7 @@ module.exports = {
                 ], activeMatch: '/数据库/'
             },
             {
-                text: "操作系统/运维", items: [
+                text: "🐳 操作系统/运维", items: [
                     {
                         items: [
                             {
@@ -153,7 +154,7 @@ module.exports = {
                 ], activeMatch: '/操作系统/运维/'
             },
             {
-                text: "Go", items: [
+                text: "🥙 Go", items: [
                     {
                         items: [
                             {
@@ -169,7 +170,7 @@ module.exports = {
                 ], activeMatch: '/Go/'
             },
             {
-                text: "Rust", items: [
+                text: "🔥 Rust", items: [
                     {
                         items: [
                             {
@@ -185,7 +186,7 @@ module.exports = {
                     }
                 ], activeMatch: '/Rust/'
             },
-            { text: "关于", link: '/about/about', activeMatch: '/关于/' },
+            { text: "📚 关于", link: '/about/about', activeMatch: '/关于/' },
         ],
 
         // 侧边栏

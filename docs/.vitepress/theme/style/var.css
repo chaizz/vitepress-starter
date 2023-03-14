@@ -2,16 +2,16 @@
 	--vp-home-hero-name-color: transparent;
 	--vp-home-hero-name-background: -webkit-linear-gradient(
 		120deg,
-		#EECE13,
-		#B210FF
+		#eece13,
+		#b210ff
 	);
+
 	/* 图标背景 */
 	--vp-home-hero-image-background-image: -webkit-linear-gradient(
 		135deg,
-		#EA5455 10%,
-		#f1760b 40%,
-		#f6a055 70%,
+		#ea5455 10%,
 		#eebf32 100%
 	);
+
 	--vp-home-hero-image-filter: blur(150px);
 }

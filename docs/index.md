@@ -9,13 +9,7 @@ hero:
   image:
     src: /orange.svg
     alt: vite 
-  actions:
-    - theme: brand
-      text: start 
-      link: /articles/tools/VitePress搭建文档网站
-    - theme: alt 
-      text: View on github
-      link: https://github.com/chaizz
+
 
 features:
   - icon: ⚡️

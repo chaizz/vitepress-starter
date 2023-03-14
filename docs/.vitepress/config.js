@@ -1,5 +1,5 @@
 module.exports = {
-    lang:'zh-CN',
+    lang: 'zh-CN',
     title: '编程纪元',
     description: '个人知识笔记~',
     themeConfig: {
@@ -571,5 +571,11 @@ module.exports = {
         }
     },
 
+    algolia: {
+        apiKey: "未申请",
+        indexName: "interview-questions-record",
+        // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+        appId: "未申请"
+    }
 
 }

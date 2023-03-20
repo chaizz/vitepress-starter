@@ -571,8 +571,8 @@ module.exports = {
         },
 
         algolia: {
-            apiKey: "f454ad1a209c3fb52d11693ed1c86204",
-            indexName: "interview-questions-record",
+            apiKey: "04e97abfcc4f31f5c445d0994bcf3a8f",
+            indexName: "ninth",
             // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
             appId: "VZ4G3IXPZP"
         }

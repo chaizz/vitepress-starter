@@ -442,6 +442,10 @@ module.exports = {
                             text: "JS笔记之JS类(五)",
                             link: "/articles/web/javascript/JS笔记之JS类(五)",
                         },
+                        {
+                            text: "JS笔记之JS类(六)",
+                            link: "/articles/web/javascript/JS笔记之JS类(六)",
+                        },
                     ]
                 },
                 {

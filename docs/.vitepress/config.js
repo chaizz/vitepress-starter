@@ -444,6 +444,20 @@ module.exports = {
                         },
                     ]
                 },
+                {
+                    text: "JS错误处理",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "JS笔记之JS错误处理(一)",
+                            link: "/articles/web/javascript/JS笔记之JS错误处理(一)",
+                        },
+                        {
+                            text: "JS笔记之JS错误处理(二)",
+                            link: "/articles/web/javascript/JS笔记之JS错误处理(二)",
+                        },
+                    ]
+                },
 
             ],
             "/articles/web/css/": [

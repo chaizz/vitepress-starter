@@ -282,188 +282,188 @@ module.exports = {
                     ]
                 },
             ],
-            "/articles/web/javascript/": [
-                {
-                    text: "数据类型",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS数据类型(一)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(二)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(三)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(三)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(四)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(四)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(五)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(五)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(六)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(六)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(七)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(七)",
-                        },
-                        {
-                            text: "JS笔记之JS数据类型(八)",
-                            link: "/articles/web/javascript/JS笔记之JS数据类型(八)",
-                        },
-                    ]
-                },
-                {
-                    text: "JS对象",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS对象基础知识(一)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(二)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(三)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(三)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(四)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(四)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(五)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(五)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(六)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(六)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(七)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(七)",
-                        },
-                        {
-                            text: "JS笔记之JS对象基础知识(八)",
-                            link: "/articles/web/javascript/JS笔记之JS对象基础知识(八)",
-                        },
-                    ]
-                },
-                {
-                    text: "JS函数",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS函数进阶(一)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(一)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(二)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(二)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(三)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(三)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(四)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(四)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(五)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(五)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(六)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(六)",
-                        },
-                        {
-                            text: "JS笔记之JS函数进阶(七)",
-                            link: "/articles/web/javascript/JS笔记之JS函数进阶(七)",
-                        },
-
-                    ]
-                },
-                {
-                    text: "JS原型继承",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS原型继承(一)",
-                            link: "/articles/web/javascript/JS笔记之JS原型继承(一)",
-                        },
-                        {
-                            text: "JS笔记之JS原型继承(二)",
-                            link: "/articles/web/javascript/JS笔记之JS原型继承(二)",
-                        },
-                        {
-                            text: "JS笔记之JS原型继承(三)",
-                            link: "/articles/web/javascript/JS笔记之JS原型继承(三)",
-                        },
-                        {
-                            text: "JS笔记之JS原型继承(四)",
-                            link: "/articles/web/javascript/JS笔记之JS原型继承(四)",
-                        },
-
-
-                    ]
-                },
-                {
-                    text: "JS类",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS类(一)",
-                            link: "/articles/web/javascript/JS笔记之JS类(一)",
-                        },
-                        {
-                            text: "JS笔记之JS类(二)",
-                            link: "/articles/web/javascript/JS笔记之JS类(二)",
-                        },
-                        {
-                            text: "JS笔记之JS类(三)",
-                            link: "/articles/web/javascript/JS笔记之JS类(三)",
-                        },
-                        {
-                            text: "JS笔记之JS类(四)",
-                            link: "/articles/web/javascript/JS笔记之JS类(四)",
-                        },
-                        {
-                            text: "JS笔记之JS类(五)",
-                            link: "/articles/web/javascript/JS笔记之JS类(五)",
-                        },
-                        {
-                            text: "JS笔记之JS类(六)",
-                            link: "/articles/web/javascript/JS笔记之JS类(六)",
-                        },
-                    ]
-                },
-                {
-                    text: "JS错误处理",
-                    collapsed: false,
-                    items: [
-                        {
-                            text: "JS笔记之JS错误处理(一)",
-                            link: "/articles/web/javascript/JS笔记之JS错误处理(一)",
-                        },
-                        {
-                            text: "JS笔记之JS错误处理(二)",
-                            link: "/articles/web/javascript/JS笔记之JS错误处理(二)",
-                        },
-                    ]
-                },
-
-            ],
+            // "/articles/web/javascript/": [
+            //     {
+            //         text: "数据类型",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS数据类型(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(二)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(三)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(三)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(四)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(四)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(五)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(五)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(六)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(六)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(七)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(七)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS数据类型(八)",
+            //                 link: "/articles/web/javascript/JS笔记之JS数据类型(八)",
+            //             },
+            //         ]
+            //     },
+            //     {
+            //         text: "JS对象",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(二)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(三)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(三)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(四)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(四)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(五)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(五)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(六)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(六)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(七)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(七)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS对象基础知识(八)",
+            //                 link: "/articles/web/javascript/JS笔记之JS对象基础知识(八)",
+            //             },
+            //         ]
+            //     },
+            //     {
+            //         text: "JS函数",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS函数进阶(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(二)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(三)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(三)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(四)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(四)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(五)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(五)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(六)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(六)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS函数进阶(七)",
+            //                 link: "/articles/web/javascript/JS笔记之JS函数进阶(七)",
+            //             },
+            //
+            //         ]
+            //     },
+            //     {
+            //         text: "JS原型继承",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS原型继承(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS原型继承(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS原型继承(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS原型继承(二)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS原型继承(三)",
+            //                 link: "/articles/web/javascript/JS笔记之JS原型继承(三)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS原型继承(四)",
+            //                 link: "/articles/web/javascript/JS笔记之JS原型继承(四)",
+            //             },
+            //
+            //
+            //         ]
+            //     },
+            //     {
+            //         text: "JS类",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS类(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS类(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(二)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS类(三)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(三)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS类(四)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(四)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS类(五)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(五)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS类(六)",
+            //                 link: "/articles/web/javascript/JS笔记之JS类(六)",
+            //             },
+            //         ]
+            //     },
+            //     {
+            //         text: "JS错误处理",
+            //         collapsed: false,
+            //         items: [
+            //             {
+            //                 text: "JS笔记之JS错误处理(一)",
+            //                 link: "/articles/web/javascript/JS笔记之JS错误处理(一)",
+            //             },
+            //             {
+            //                 text: "JS笔记之JS错误处理(二)",
+            //                 link: "/articles/web/javascript/JS笔记之JS错误处理(二)",
+            //             },
+            //         ]
+            //     },
+            //
+            // ],
             "/articles/web/css/": [
                 {
                     text: "CSS布局",

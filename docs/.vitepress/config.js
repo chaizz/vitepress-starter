@@ -1,7 +1,7 @@
 module.exports = {
     lang: 'zh-CN',
-    title: '编程纪元',
-    description: '个人知识笔记~',
+    title: 'Django开发脚手架',
+    description: '~',
     themeConfig: {
         logo: "/orange.svg",
 
@@ -117,7 +117,7 @@ module.exports = {
                 ], activeMatch: '/数据库/'
             },
             {
-                text: "🐳 操作系统/运维", items: [
+                text: "操作系统/运维", items: [
                     {
                         items: [
                             {
@@ -137,7 +137,7 @@ module.exports = {
                     {
                         items: [
                             {
-                                text: "Docker",
+                                text: "🐳 Docker",
                                 link: "/Go",
                             },
                             {
@@ -585,7 +585,7 @@ module.exports = {
         // 页脚
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2023-present chaizz'
+            copyright: 'Copyright © 2023-present chaizz <br> <a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备20008035号-2</a>'
         },
 
         algolia: {

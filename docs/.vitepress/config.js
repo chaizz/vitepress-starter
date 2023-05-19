@@ -1,6 +1,6 @@
 module.exports = {
     lang: 'zh-CN',
-    title: 'Django开发脚手架',
+    title: '编程纪元',
     description: '~',
     themeConfig: {
         logo: "/orange.svg",
@@ -14,54 +14,10 @@ module.exports = {
                         items: [
                             {
                                 text: "⚡️ Python",
-                                link: "/articles/python/python/",
-                            },
-                        ]
-                    },
-                    {
-                        items: [
-                            {
-                                text: "Django",
-                                link: "/articles/python/django/",
-                            },
-                            {
-                                text: "Flask",
-                                link: "/articles/python/flask/",
-                            },
-                            {
-                                text: "FastAPI",
-                                link: "/articles/python/fastapi/",
-                            },
-                            {
-                                text: "Celery",
-                                link: "/articles/python/Celery/",
-                            },
+                                link: "/articles/python/pythonista/",
+                            }
                         ],
-                    },
-                    {
-                        items: [
-                            {
-                                text: "数据分析",
-                                link: "/articles/python/Celery/",
-                            },
-                            {
-                                text: "人工智能",
-                                link: "/articles/python/Celery/",
-                            },
-                            {
-                                text: "机器学习",
-                                link: "/articles/python/Celery/",
-                            },
-                            {
-                                text: "深度学习",
-                                link: "/articles/python/Celery/",
-                            },
-                            {
-                                text: "Yolo",
-                                link: "/articles/python/Celery/",
-                            },
-                        ],
-                    },
+                    }
                 ], activeMatch: '/Python/'
             },
             {
@@ -224,15 +180,44 @@ module.exports = {
                 },
 
             ],
-            "/articles/python/python/": [
+            "/articles/python/pythonista/": [
                 {
-                    text: "Python",
+                    text: "Python包管理器",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "Python新一代包管理解决方案-Rye",
+                            link: "/articles/python/pythonista/Python新一代包管理解决方案-Rye",
+                        },
+                        {
+                            text: "Python环境管理Poetry的使用",
+                            link: "/articles/python/pythonista/Python环境管理Poetry的使用",
+                        },
+   
+                    ]
+                },
+                {
+                    text: "其他",
                     collapsed: false,
                     items: [
                         {
-                            text: "Python第三方包Dynaconf的使用",
-                            link: "/articles/python/python/Python第三方包Dynaconf",
-                        }
+                            text: "Python第三方包Dynaconf",
+                            link: "/articles/python/pythonista/Python第三方包Dynaconf",
+                        },
+                        {
+                            text: "Jupyter-notebook的安装与基本使用",
+                            link: "/articles/python/pythonista/Jupyter-notebook的安装与基本使用",
+                        },
+                        {
+                            text: "Python代码规范（pep8-Google-style）",
+                            link: "/articles/python/pythonista/Python代码规范（pep8-Google-style）",
+                        },
+                        {
+                            text: "Python压缩图片作为缩略图",
+                            link: "/articles/python/pythonista/Python压缩图片作为缩略图",
+                        },
+                        
                     ]
                 },
             ],
@@ -482,9 +467,6 @@ module.exports = {
                             text: "CSS布局-浮动与定位多列布局",
                             link: "/articles/web/css/CSS布局-浮动与定位多列布局",
                         },
-
-
-
                     ]
                 },
                 {

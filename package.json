@@ -12,5 +12,8 @@
     "docs:serve": "vitepress serve docs"
   },
   "repository": "git@github.com:chaizz/vitepress-starter.git",
-  "author": "chaizz <18037731392@163.com>"
+  "author": "chaizz <18037731392@163.com>",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
 }

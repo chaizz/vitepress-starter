@@ -7,6 +7,48 @@ module.exports = {
 
         // 导航栏
         nav: [
+            {
+                text: "🥗 面试",
+                items: [
+                    {
+                        text: "⚡️ Python",
+                        link: "/articles/interview/python/",
+                    },
+                    {
+                        text: "⚡️ Python框架",
+                        link: "/articles/interview/pythonrframe/",
+                    },
+                    {
+                        text: "⚡️ 数据库",
+                        link: "/articles/interview/database/mysql",
+                    },
+                    {
+                        text: "⚡️ 消息队列",
+                        link: "/articles/interview/mq/rabbitmq",
+                    },
+                    {
+                        text: "⚡️ Vue",
+                        link: "/articles/interview/vue/",
+                    },
+                    {
+                        text: "⚡️ React",
+                        link: "/articles/interview/react/",
+                    },
+                    {
+                        text: "⚡️ JS+TS",
+                        link: "/articles/interview/jsts/",
+                    },
+                    {
+                        text: "⚡️ 算法",
+                        link: "/articles/interview/algo/",
+                    },
+                    {
+                        text: "⚡️ 计算机基础+网络",
+                        link: "/articles/interview/base/计算机网络",
+                    },
+                ],
+                activeMatch: '/其他/'
+            },
             { text: "🎆 其他", link: '/articles/tools/VitePress搭建文档网站', activeMatch: '/其他/' },
             {
                 text: "🐍 Python", items: [
@@ -624,7 +666,68 @@ module.exports = {
                         }
                     ]
                 }
-            ]
+            ],
+
+            // 导航栏 [面试] 对应侧边栏
+            "/articles/interview/base/": [
+                {
+                    text: "计算机网络",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "计算机网络",
+                            link: "/articles/interview/base/计算机网络",
+                        }
+                    ]
+                },
+                {
+                    text: "Nginx",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Nginx",
+                            link: "/articles/interview/base/nginx",
+                        }
+                    ]
+                },
+            ],
+            "/articles/interview/database/": [
+                {
+                    text: "MySQL",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "MySQL",
+                            link: "/articles/interview/database/mysql",
+                        }
+                    ]
+                },
+                {
+                    text: "Redis",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Nginx",
+                            link: "/articles/interview/database/redis",
+                        }
+                    ]
+                },
+            ],
+            "/articles/interview/mq/": [
+                {
+                    text: "RabbitMQ",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "RabbitMQ",
+                            link: "/articles/interview/mq/rabbitmq",
+                        }
+                    ]
+                }
+            ],
 
         },
 

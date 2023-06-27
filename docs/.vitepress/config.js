@@ -48,27 +48,23 @@ module.exports = {
                 text: "📝 数据库", items: [
                     {
                         text: "MySQL",
-                        link: "/Go",
+                        link: "/articles/database/mysql/",
                     },
                     {
                         text: "Redis",
-                        link: "/Redis",
+                        link: "/articles/database/redis/",
                     },
                     {
                         text: "PostgreSQL",
-                        link: "/Go",
+                        link: "/articles/database/postgresql/",
                     },
                     {
                         text: "MongoDB",
-                        link: "/Go",
-                    },
-                    {
-                        text: "InfluxDB",
-                        link: "/Go",
+                        link: "/articles/database/mongodb/",
                     },
                     {
                         text: "Elasticsearch",
-                        link: "/Go",
+                        link: "/articles/database/elasticsearch/",
                     },
                 ], activeMatch: '/数据库/'
             },
@@ -147,6 +143,8 @@ module.exports = {
 
         // 侧边栏
         sidebar: {
+
+            //  导航栏 [其他] 对应侧边栏
             "/articles/tools/": [
                 {
                     text: "VitePress",
@@ -180,6 +178,8 @@ module.exports = {
                 },
 
             ],
+
+            //  导航栏 [Python] 对应侧边栏
             "/articles/python/pythonista/": [
                 {
                     text: "Python包管理器",
@@ -194,7 +194,7 @@ module.exports = {
                             text: "Python环境管理Poetry的使用",
                             link: "/articles/python/pythonista/Python环境管理Poetry的使用",
                         },
-   
+
                     ]
                 },
                 {
@@ -217,7 +217,7 @@ module.exports = {
                             text: "Python压缩图片作为缩略图",
                             link: "/articles/python/pythonista/Python压缩图片作为缩略图",
                         },
-                        
+
                     ]
                 },
             ],
@@ -267,6 +267,8 @@ module.exports = {
                     ]
                 },
             ],
+
+            //  导航栏 [大前端] 对应侧边栏
             // "/articles/web/javascript/": [
             //     {
             //         text: "数据类型",
@@ -545,6 +547,83 @@ module.exports = {
                         },
                     ]
                 },
+            ],
+
+
+            // 导航栏 [数据库] 对应侧边栏
+            "/articles/database/mysql/": [
+                {
+                    text: "MySQL基础",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "MySQL性能优化总结",
+                            link: "/articles/database/mysql/MySQL性能优化总结",
+                        }
+                    ]
+                },
+                {
+                    text: "MySQL事务和锁",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "MySQL的MVCC机制",
+                            link: "/articles/database/mysql/MySQL的MVCC机制",
+                        },
+                        {
+                            text: "MySQL事务与锁机制",
+                            link: "/articles/database/mysql/MySQL事务与锁机制",
+                        },
+                    ]
+                },
+                {
+                    text: "MySQL索引",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "MySQL索引原理",
+                            link: "/articles/database/mysql/MySQL索引原理",
+                        },
+                        {
+                            text: "MySQL索引问题",
+                            link: "/articles/database/mysql/MySQL索引问题",
+                        }
+                    ]
+                },
+                {
+                    text: "MySQL常见问题",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Mysql 8.0 数据库无法远程连接",
+                            link: "/articles/database/MySQL/Mysql 8.0 数据库无法远程连接",
+                        }
+                    ]
+                },
+            ],
+            "/articles/database/redis/": [
+                {
+                    text: "Redis基础",
+                    collapsed: false,
+                    items: [
+
+                        {
+                            text: "Redis知识巩固",
+                            link: "/articles/database/redis/Redis知识巩固",
+                        }
+                    ]
+                },
+                {
+                    text: "Redis进阶",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "Redis底层原理",
+                            link: "/articles/database/redis/Redis底层原理",
+                        }
+                    ]
+                }
             ]
 
         },
